@@ -1,84 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Code Quiz</title>
 </head>
 <header>
     <ul>
-        <li id="view-highscores">View High Scores</li>
-        <li id="time">Time:</li>
+        <li id="view-highscores"><a href="#"> High Scores</a></li>
+        <li id="time">Time:[]</li>
+        <script src="./js/script.js"></script>
     </ul>
 </header>
 <body>
-    <div class="title">
+    <div class="title" id="startcontainer">
         <p>Coding Quiz Challenge</p>
-        <p>Answer the following sequence of questions on coding as quickly and accurately as you can to score the highest!</p>
+        <p>Answer the following sequence of questions on coding as quickly and correctly as you can to score the highest!</p>
         <div>
             <Button id="start">Start Quiz</Button>
         </div>
     </div>
-    <div class="question-1">
+<div>
+    <div class="question1 hide" id="first">
         <P>Commonly used data types do NOT use:</P>
         <Ul>
-            <li>Strings</li>
-            <li>Booleans</li>
-            <li>Alerts</li>
-            <li>Numbers</li>
+            <button> <li>Strings</li> </button>
+            <button> <li>Booleans</li> </button>
+            <button> <li>Alerts</li> </button>
+            <button> <li>Numbers</li> </button>
         </Ul>
     </div>
-    <div class="question-2">
+    <div class="question2 hide">
         <p>The condtion of an if / esle statement is enclosed with ______.</p>
         <Ul>
-            <li>Quotes</li>
-            <li>Curly Brackets</li>
-            <li>Parenthesis</li>
-            <li>Square brackets</li>
+            <button> <li>Quotes</li> </button>
+            <button> <li>Curly Brackets</li> </button>
+            <button> <li>Paranthesis</li> </button>
+            <button> <li>Square Brackets</li> </button>
         </Ul>
     </div>
-    <div class="question-3">
+    <div class="question3 hide">
         <p>Arrays in Javascript can be used to store ______.</p>
         <ul>
-            <li>Numbers and strings</li>
-            <li>Other Arrays</li>
-            <li>Booleans</li>
-            <li>All of the above</li>
+            <button> <li>Numbers and Strings</li> </button>
+            <button> <li>Other Arrays</li> </button>
+            <button> <li>Booleans</li> </button>
+            <button> <li>All of the Above</li> </button>
         </ul>
     </div>
-    <div class="question-4">
+    <div class="question4 hide">
         <p>String values must be enclosed in ______ when being assigned to variables.</p>
         <ul>
-            <li>Commas</li>
-            <li>Curly brackets</li>
-            <li>Quotes</li>
-            <li>Parenthesis</li>
+            <button> <li>Commas</li> </button>
+            <button> <li>Curly Brackets</li> </button>
+            <button> <li>Quotes</li> </button>
+            <button> <li>Parenthises</li> </button>
         </ul>
-    </div>
-    <div class="question 5">
+    
+    <div class="question5 hide">
         <p>A very useful tool used during development and debugging for printing content to the debugger is ______.</p>
         <ul>
-            <li>Javascript</li>
-            <li>Terminal/Bash</li>
-            <li>For loops</li>
-            <li>Consle.log</li>
+            <button> <li>Javascript</li> </button>
+            <button> <li>Terminal/Bash</li> </button>
+            <button> <li>For Loops</li> </button>
+            <button> <li>Consle.log</li> </button>
         </ul>
     </div>
-    <div class="done">
+</div>
+    <div class="done hide">
         <p>All Done</p>
         <ul>
             <li>Final Score:</li>
             <li>Initials:</li>
         </ul>
     </div>
-    <div class="highscores">
+    <div class="highscores hide">
         <p>HighScores</p>
         <ul>
-            <li>Go back</li>
-            <li>Clear HighScores</li>
+            <button> <li>Go Back</li> </button>
+            <button> <li>Clear High Scores</li> </button>
         </ul>
     </div>
+</div>
 </body>
+<script src="./js/script.js"></script>
 </html>
