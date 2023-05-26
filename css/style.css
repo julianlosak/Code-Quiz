@@ -22,7 +22,7 @@ body {
 }
 
 body.correct {
-    --hue: var(--hue-neutral);
+    --hue: var(--hue-correct);
 }
 
 body.wrong {
@@ -50,9 +50,10 @@ body.wrong {
     background-color: hsl(var(--hue), 100%, 20%);
     border: 1px solid hsl(var(--hue), 100%, 10%);
     border-radius: 5px;
-    padding: 5px 10px;
-    color: wheat;
+    padding: 10px 100px;
+    color: rgb(199, 188, 167);
     outline: none;
+    font-size: 2rem;
 }
 
 .btn:hover {
@@ -80,13 +81,5 @@ body.wrong {
 }
 
 .hide {
-    display: none;
-}
-
-/*li {
-    list-style: none;
-}
-
-.hide{
     display: none;
 }
